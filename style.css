@@ -1,28 +1,45 @@
+body {
+  background-color: black;
+}
 .container {
-    max-width: 1200px;
-    margin: auto;
+  max-width: 1200px;
+  margin: auto;
 }
 .main {
-    max-width: 800px;
-    border: 1px solid gray;
-    margin: 100px auto;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  max-width: 800px;
+  border: 1px solid gray;
+  margin: 100px auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+h1 {
+  font-family: "Roboto", sans-serif;
+  color: white;
 }
 .password {
-    width: 300px;
-    height: 35px;
-    padding-left: 10px;
+  width: 300px;
+  height: 35px;
+  padding-left: 10px;
+  border-radius: 12px;
+}
+.password::placeholder {
+  font-family: "Roboto", sans-serif;
+}
+.range::-webkit-slider-thumb {
+  cursor: pointer;
 }
 .password-bth {
-    width: 100px;
-    height: 35px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    cursor: pointer;
-    margin: 10px;
+  font-family: "Roboto", sans-serif;
+  width: 100px;
+  height: 35px;
+  background-color: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 10px;
 }
