@@ -14,6 +14,8 @@ range.max = 100;
 range.setAttribute("type", "range");
 const rangeParagraph = document.createElement("input");
 rangeParagraph.setAttribute("type", "number");
+rangeParagraph.min = 0;
+rangeParagraph.max = 100;
 range.addEventListener("input", () => (rangeParagraph.value = range.value));
 rangeParagraph.addEventListener(
   "input",
