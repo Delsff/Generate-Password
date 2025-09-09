@@ -11,5 +11,7 @@ Usage
 2. Click **Generate Password** to create a password.
 
 3. Click **Copy Password** to copy the password.
+
 Password-generate/online
+
 [View online](https://reliable-kitten-c6811d.netlify.app/)
