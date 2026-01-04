@@ -14,4 +14,4 @@ Usage
 
 Password-generate/online
 
-[View online](https://euphonious-sfogliatella-3e1d81.netlify.app/)
+[View online](https://password28.netlify.app/)
