@@ -14,4 +14,4 @@ Usage
 
 Password-generate/online
 
-[View online](https://reliable-kitten-c6811d.netlify.app/)
+[View online](https://euphonious-sfogliatella-3e1d81.netlify.app/)
